@@ -1,15 +1,14 @@
 import * as React from "react";
 import Layout from "../component/layout";
-
-const IndexPage = () => {
+const About = () => {
   return (
     <Layout>
       <main>
-        <title>我的博客</title>
-        <h1>首页内容</h1>
+        <title>我的校园</title>
+        <h1>我的校园</h1>
       </main>
     </Layout>
   );
 };
 
-export default IndexPage;
+export default About;
