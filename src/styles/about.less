@@ -1,0 +1,17 @@
+// 全局变量
+@color:#CBCB41;
+
+#wordStyle{
+    font-size: 25px;
+    text-decoration: line-through;
+    // 局部变量
+    @font:30px;
+}
+
+
+.blogTitle{
+    color:@color;
+    #wordStyle();
+    font-size: @font;
+}
+
