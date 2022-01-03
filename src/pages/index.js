@@ -2,6 +2,17 @@ import * as React from "react";
 import Layout from "../component/layout";
 import {StaticImage} from "gatsby-plugin-image";
 const IndexPage = () => {
+
+//   const data = useStaticQuery(graphql`
+// query {
+//   site {
+//     siteMetadata {
+//       title
+//     }
+//   }
+// }
+// `)
+
   return (
     <Layout>
       <main>
