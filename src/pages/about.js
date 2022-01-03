@@ -5,9 +5,8 @@ import * as aboutStyle from "../styles/about.css";
 const About = () => {
   console.log(aboutStyle);
   return (
-    <Layout>
+    <Layout pageTitle="金高银">
       <main>
-        <title>金高银</title>
         <p className="blogTitle">金高银图片！</p>
         <StaticImage
           alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
