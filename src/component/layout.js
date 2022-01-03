@@ -5,10 +5,7 @@ const Layout = ({children}) => {
   return (
     <div>
       <header>
-        <Link to="/">
-          <span>首页</span>
-        </Link>
-        <Link to="/about">关于学校</Link>
+        <Link to="/">星黛露</Link>|<Link to="/about">金高银</Link>
       </header>
       {children}
     </div>
