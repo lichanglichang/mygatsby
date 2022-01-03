@@ -1,7 +1,8 @@
 import * as React from "react";
 import Layout from "../component/layout";
 import {StaticImage} from "gatsby-plugin-image";
-const IndexPage = () => {
+import {graphql} from "gatsby";
+const IndexPage = ({data}) => {
   return (
     <Layout pageTitle="星黛露">
       <main>
@@ -13,8 +14,21 @@ const IndexPage = () => {
         width={200}
         height={200}
       />
+      <ul>
+        {data.allFile.nodes.map(node => (
+          <li key={node.name}>{node.name}</li>
+        ))}
+      </ul>
     </Layout>
   );
 };
-
+export const query = graphql`
+  query {
+    allFile {
+      nodes {
+        name
+      }
+    }
+  }
+`;
 export default IndexPage;
