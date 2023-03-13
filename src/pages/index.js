@@ -4,9 +4,9 @@ import {StaticImage} from "gatsby-plugin-image";
 import {graphql} from "gatsby";
 const IndexPage = ({data}) => {
   return (
-    <Layout pageTitle="星黛露">
+    <Layout pageTitle="星黛露哈哈哈">
       <main>
-        <h1>星黛露图片！</h1>
+        <h1>星黛露图片</h1>
       </main>
       <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
